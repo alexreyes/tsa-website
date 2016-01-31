@@ -2,6 +2,9 @@ body {
   padding-top: 50px;
   color: #5a5a5a;
 }
+#myCarousel {
+  padding-bottom: 10px;
+}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
