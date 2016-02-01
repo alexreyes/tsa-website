@@ -1,3 +1,4 @@
+
 body {
   padding-top: 50px;
   color: #5a5a5a;
@@ -10,6 +11,9 @@ a:hover {
 }
 a:link {
     text-decoration: none;
+}
+.containerMarketing {
+  padding-left: 120px
 }
 #myCarousel {
   padding-bottom: 10px;
