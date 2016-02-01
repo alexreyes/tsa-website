@@ -3,9 +3,8 @@ body {
   padding-top: 50px;
   color: #5a5a5a;
 }
-<<<<<<< HEAD
 a {
-  color: #FFF;
+  color:#FFF;
 }
 a:hover {
   color: #FFF;
@@ -13,23 +12,35 @@ a:hover {
 a:link {
     text-decoration: none;
 }
-.containerMarketing {
-  padding-left: 120px
+
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+    position:relative
 }
-||||||| 223556f... Make Carousel links work
-a {
-  padding-top: 50px;
-  color: #FFF;
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
 }
-a:hover {
-  padding-top: 50px;
-  color: #FFF;
+
+a.darken:hover img {
+    opacity: 0.7;           
 }
-a:link {
-    text-decoration: none;
+a.darken span{position:absolute;top:5px;color:#000;left:10px}
+a.darken:hover span{color:#fff;
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
 }
-=======
->>>>>>> parent of 223556f... Make Carousel links work
 #myCarousel {
   padding-bottom: 10px;
 }
@@ -37,7 +48,9 @@ a:link {
   padding: 40px 15px;
   text-align: center;
 }
-
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
