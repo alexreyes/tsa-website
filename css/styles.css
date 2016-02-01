@@ -3,6 +3,7 @@ body {
   padding-top: 50px;
   color: #5a5a5a;
 }
+<<<<<<< HEAD
 a {
   color: #FFF;
 }
@@ -15,6 +16,20 @@ a:link {
 .containerMarketing {
   padding-left: 120px
 }
+||||||| 223556f... Make Carousel links work
+a {
+  padding-top: 50px;
+  color: #FFF;
+}
+a:hover {
+  padding-top: 50px;
+  color: #FFF;
+}
+a:link {
+    text-decoration: none;
+}
+=======
+>>>>>>> parent of 223556f... Make Carousel links work
 #myCarousel {
   padding-bottom: 10px;
 }
